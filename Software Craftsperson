@@ -1,0 +1,203 @@
+SOFTWARE CRAFTSPERSON
+
+--Working software
+
+Craftsmen are gardeners. 
+ 
+ quality code may not guarantee the success of a project, but it can definitely be the main cause of its failure.
+
+
+ We think we never have the time to do things right.
+
+ If you don’t like something, change it; if you can’t
+change it, change the way you think about it
+
+
+Refactoring-->changing the legacy code in a way we want with fun and enjoying.
+
+
+Summary--->
+			If a piece of software is expected to live and be maintained for more than a few weeks or months, neglecting its quality in order to go faster is an illusion. Many companies become hostages of their own software—their business agility (or lack of it) is totally related to how fast their software can be changed or improved. The worse the software quality is, the harder it will be to make changes to it. The longer it takes for a company to change or improve its software, the slower the company will be to react to changing market conditions.
+
+
+
+
+
+
+
+
+###################### Technical Practice ########################
+Bad code is like a cancer, difficult to identify in the beginning, and hard to treat when it is finally discovered. And depending on when it was discovered, life can be prolonged but death is unavoidable.
+ Chrysler Comprehensive Compensation
+
+  However, practices don’t magically work just because they are adopted. Adopting practices—or forcing our teams to adopt them—does not guarantee the success of a project. People are not machines we can program—imposing a set of practices on them—to obtain the expected result.
+
+  TDD is actually a design practice.
+
+  THE BOY SCOUTS HAVE A RULE: “Always leave the campground cleaner than you found it.” If you find a mess on the ground, you clean it up regardless of who might have made it.
+A clean and maintainable code enables developers to go fast and reduces the chances of new bugs. That’s value to the business.
+
+ Things that are considered good today may not be considered as good tomorrow. Maybe in a few years, Software Craftsmanship will be strongly encouraging the adoption of a completely different set of practices.
+
+  We should constantly look for ways of doing our job better and satisfying our customers. If that means using TDD, we should use TDD.Whenever we find something else that could give us more value and a quicker feedback loop, then we should use that thing instead of TDD.
+
+
+  In order to be more effective, pairs should not stay together for too long. Rotating pairs frequently—every day or two—can improve the collective understanding of the entire system and level up developers’ skills. It also helps developers to define and maintain coding standards.
+
+
+  Don't settle for what is present in market or the things that are going in market from last 10 or 20 years,Question them why they are runnig from 20 years,is it that good ,that no one is doing changes.
+
+
+   If certain practices are not giving us value anymore, we stop using them. If we find a practice that is better than what we do today, we adopt this better practice. As software craftsmen, we should always keep an open mind and choose the best technologies, tools, processes, methodologies, 
+
+
+   Being pragmatic(dealing with things sensibly and realistically in a way that is based on practical rather than theoretical considerations.) is one of the best qualities that a software craftsman can have.
+
+
+
+   So, instead of saying to the team that they should do TDD, continuous integration, refactoring, pair programming, and other practices, we should say, “What if we could press a button and be confident, after a few minutes (if not seconds), that our entire application is working? We could reduce QA time from one week to a few minutes. We could even do it multiple times a day. What if we could immediately verify that changes made by different developers are not conflicting with each other or causing a problem in a different part of the application? That could save us a lot of time. How long does it take us to test and deploy our application to production? What if we could reduce that to minutes and do it multiple times a day, whenever a change is made? If a bug is found in production, how quickly can we fix the bug and have a new version of the application deployed? We also have a big gap in skillset within the team. How can we address that? How can we gain understanding of the different parts of the application, including its configuration, deployment, and frameworks? It would be great to reduce the dependency on certain members of the team.”
+
+
+
+   ##################### The Long Road ###########################
+   Focus and Determination
+
+   Knowledge is the most common return on investment expected from a job.
+
+
+When it comes to our career, there is no right or wrong. But there is something worth keeping in mind: knowledge is forever; money, stability, and security are not. If, for whatever reason, our job is terminated, knowledge and experience are the only things we will take with us.
+
+
+knowledge workers are motivated by three things: autonomy, mastery, and purpose.
+
+• Autonomy: It is when we are in control of what we do, how we do it, and when we do it. That should always be the case in a true Agile context.
+
+• Mastery: It is when we are constantly learning and evolving—becoming better professionals and better human beings.
+
+• Purpose: It is when we feel that our job is important and we are contributing to make things better—instead of just doing what we are told without understanding why.
+
+
+***********If we are working for a company where we have 
+                autonomy, mastery, and purpose, and the job is aligned with our
+                 own career aspirations, then pursuing a career inside that 
+                 company is the right thing to do.
+                                                  ****************
+
+
+
+*****How to stand out different from others*****************
+    . From that point onward, we would only accept CVs where developers had at least some of the following items: GitHub account, blog, open source contributions, technical communities and user groups with which they were active, summary of any pet projects, Twitter account, list of favorite technical books, conferences where they either gave talks or attended. From our perspective, even a passionate junior developer should have some of these items. This approach was good enough for us to identify the developers who were investing in their own careers outside working hours, which also indicates passion
+
+
+What is good interviews looks like 
+                                ---->A good interview is like a good and informal chat between passionate developers. It’s an exchange of information: a good debate about techniques, tools, challenges, and approaches to software development.
+
+
+
+
+
+Pair programming means pair programming and not standing over someone’s shoulder and applying unnecessary pressure. That’s not how we usually work with our colleagues and there is no point to behave this way with a candidate.
+
+********************INTERVIEW ANTI PATTERNS**********************
+
+    The vast majority of the problems I’ve seen in different systems over the years were not related to how algorithms were written. The most common problems were lack of tests or, at least, good tests; bad design; low cohesion and tight coupling; lack of refactoring as new features are introduced; a constant change of requirements; anemic and deficient domain models, and so on. Those were the real problems I’ve seen the most. By nature, algorithms are procedural and better implemented in a functional style. We don’t create classes or model the business domain when implementing an algorithm.
+
+
+
+    *************Culture of Learning**********************
+         Due to a lack of good role models, junior developers are led to believe that software development is not an exciting career and, like their seniors, they soon start planning how to become managers or architects;
+
+
+         Let developers decide how, when, and what they want to learn. 
+
+
+
+
+         Have Group Discussions (Roundtables)
+Divide a wall or whiteboard in two. One side is for lightning talks; the other side is for topics to be discussed in a group. Hand Post-Its and pens to all the participants (or spread them on the table). Ask participants to write down the title of the lightning talk they want to give (five minutes for the talk, two minutes for questions) or the topic they want to discuss as a group.
+
+Start with the lightning talks. People giving lightning talks can just stand up and speak. They can use the whiteboard or projector if they want to, of course. Make sure you control the time. If there are too many questions after the talk is finished, interrupt when time is up and move the lightning talk Post-It to the group discussions side. Tell everyone that they will have the opportunity to discuss that topic further if they want to.
+
+
+
+     Pairing with developers from different teams exposes developers to different technologies, techniques, and ways of working and thinking.
+
+
+
+     • Never look at the commit history during a group code review. Focus on changing the future, not on dwelling on the past.
+
+     • Comments should be objective and constructive. The focus is on how to make the code better and not to say why it sucks.
+
+
+
+     Encourage Pet Project
+
+        There is nothing more rewarding for a developer than having a good pet project to work on. You are your own boss. You decide what features to work on next, how you want to do it, and, most important, there are no deadlines.
+
+    Don't Force
+        Forcing developers to attend any of the learning initiatives will just make things worse
+
+        ****** Lack of time or an appropriate place for learning is not an excuse.******************
+
+
+Driving Technical Changes
+
+The Wronged:They are the most dangerous person because they think they are underpaid.
+
+
+Honesty and transparency are core values for any software craftsman.
+
+
+ Disrespect and aggression will immediately put people in a defensive mode, making the task of convincing them almost impossible.
+
+If you want your team to behave in a certain way or adopt a technology or practice, first make sure that you can do that yourself. Leading by example will help you to deal with the vast majority of skeptics—they would have a hard time rejecting your proposals if you could successfully demonstrate your technique and mentor them.
+
+
+It is important to include people in the decision-making process and provide a feedback loop mechanism where everyone has an equal say
+
+
+Only incompetent people fear losing their jobs. Incompetents and cowards prefer to play political games and hide behind someone else’s mistakes, so they can get their promotions. “If I make my boss happy, I’ll get promoted. I don’t care about the company, I care about my bonus.” This is selfish, unprofessional, and immoral.
+
+ Pragmatic Craftsmanship
+
+The day we convince ourselves that there is just one way of delivering software—in other words, that there is just one set of practices we should use—is the day that we will stop evolving. Being dogmatic about certain technologies, practices, or tools, without understanding the context we are in, is not Software Craftsmanship. A software craftsman has a large toolset and can choose the most appropriate tools and practices for the job.
+
+Don’t rush to call people unprofessional just because they don’t use certain practices. Ask them what practices they use instead and then compare the benefits their practices have over the practices you use.    
+
+
+Well-crafted code is simple, small, testable, easy to understand, and most important, does the job. Code is the main source of bugs and pain. The less we write it, the better.
+
+
+Four Rules of Simple Design
+
+1. Pass all tests
+
+2. Clear, expressive, and consistent
+
+3. Duplicates no behavior or configuration
+
+4. Minimal methods, classes, and modules
+
+
+
+
+
+
+
+
+
+
+ A Career As a Software Craftsman
+
+
+    Passion. That summarizes it all. Software craftsmen are passionate about software development and their profession. They are passionate about solving problems with simple solutions. They are passionate about learning, teaching, and sharing. Software craftsmen are passionate about helping the software industry to evolve; sharing their code; mentoring young developers; sharing their experiences via blogs, books, talks, videos, and conversations; and being active in technical communities. Software craftsmen are humble, always ready to learn from more-experienced developers, and eager to help the less experienced.
+
+
+True software craftsmen focus first on solving problems, not on writing code. However, when they do need to write code, they focus on writing quality code—code that is testable, easy to understand, and easy to maintain.
+
+I see my career as a very long, uneven, and curvy road. At the end of the road, there is the Promised Land: mastery
+
+
+
+******* Craftsmanship Myths and Further Explanations************
+Software craftsmen are not attached to practices. They are attached to the value that those practices give them.
