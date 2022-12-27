@@ -1,0 +1,356 @@
+CLEAN AGILE-->BACK TO BASICS
+
+
+***********************History of Agile*****************
+	When did Agile begin? Probably more than 50,000 years ago when 
+	humans first decided to collaborate on a common goal. The idea of 
+	choosing small intermediate goals and measuring the progress 
+	after each is just too intuitive, and too human, to be considered
+	any kind of a revolution.
+
+
+ABOUT WATERFALL
+	Even though it was not what Royce was recommending, it was the concept people took away from his paper. And it dominated the next three decades.
+
+HOW IT STARTED
+	It may have been the affinity groupings that identified the four values, which were Individuals and Interactions, Working Software, Customer Collaboration, and Responding to Change. 
+
+
+4 STAR RULE
+	Individuals and interactions over processes and tools.
+
+	Working software over comprehensive documentation.
+
+	Customer collaboration over contract negotiation.
+
+	Responding to change over following a plan.
+
+
+THE IRON CROSS
+	 This physics constrains all projects to obey an unassailable trade-off called the Iron Cross of project management. Good, fast, cheap, done:
+
+
+
+	  Remember, the first thing you know is the date. We subdivide that time into regular increments called iterations or sprints.
+
+
+OODA Loop
+	OODA loop is the cycle observe–orient–decide–act,
+
+	  At the same time, the requirements are wildly in flux and can never be frozen. This is because the customers don’t really know what they want. They sort of know what problem they want to solve, but translating that into the requirements of a system is never trivial. So the requirements are constantly being re-evaluated and re-thought.
+
+
+Then, on July 1, a miracle happens. We’re done with analysis.
+
+Why are we done with analysis? Because it’s July 1. The schedule said we were supposed to be done on July 1, so we’re done on July 1. Why be late?
+
+
+ We subdivide that time into regular increments called iterations or sprints
+
+ 		Sprint is the term used in Scrum. I dislike the term because it implies running as fast as possible. A software project is a marathon, and you don’t want to sprint in a marathon.
+
+**	The first iteration, sometimes known as Iteration Zero, is used to generate a short list of features, called stories.
+
+
+
+*****The only way to go fast, is to go well.*****
+
+*/*/*/*/*/*/
+These practices align very closely with the goals of the Agile Manifesto in at least the following ways:
+
+Individuals and interactions, over processes and tools
+
+Whole Team, Metaphor, Collective Ownership, Pairing, Sustainable Pace
+
+Working software over comprehensive documentation
+
+Acceptance Tests, Test Driven Development, Simple Design, Refactoring, Continuous Integration
+
+Customer collaboration over contract negotiation
+
+Small Releases, Planning Game, Acceptance Tests, Metaphor
+
+Responding to change over following a plan
+
+Small Releases, Planning Game, Sustainable Pace, Test Driven Development, Refactoring, Acceptance Tests
+
+
+
+Agile resolves these issues with the simple rule that the system should be technically deployable at the end of every iteration. Technically deployable means that from the developers’ points of view the system is technically solid enough to be deployed. The code is clean and the tests all pass.
+This means that the work completed in the iteration includes all the coding, all the testing, all the documentation, and all the stabilization for the stories implemented in that iteration.
+
+
+Inexpensive Adaptability
+Software is a compound word. The word “ware” means “product.” The word “soft” means easy to change
+
+
+During the Snowbird meeting, Kent Beck said that the goal of Agile was to heal the divide between business and development. To that end, the following bill of rights was developed by Kent, Ward Cunningham, and Ron Jeffries, among others.
+
+software-->product can easily change.
+
+
+
+Agile is not a process. Agile is not a fad. Agile is not merely a set of rules. Rather, Agile is a set of rights, expectations, and disciplines of the kind that form the basis of an ethical profession.
+
+What makes a story manageable, schedulable, and estimable is the temporary lack of detail. Stories must start out cheap because a lot of them are going to be modified, split, merged, or even discarded. Just keep reminding yourself that they are placeholders, not requirements.
+
+The job of the stakeholders at the IPM is to choose the stories that will be implemented by the programmers and testers during the iteration. To do this, they need to know how many story points the programmers think they can complete. This number is called the velocity.
+
+
+
+
+The stories that are valuable but cheap will be done right away. Those that are valuable but expensive will be done later. Those that are neither valuable nor expensive might get done one day. Those that are not valuable but are expensive will never be done.
+
+
+The project is not over when all the stories are implemented. The project is over when there are no more stories in the deck worth implementing.
+
+
+
+Stories follows simple Acronym
+							-----> INVEST
+
+
+Story size is similar to shirt size
+small,medium and large.
+
+
+Managing the Iteration
+The goal of each iteration is to produce data by getting stories done. The team should focus on stories rather than tasks within stories. It is far better to get 80% of the stories done than it is to get each story 80% done. Focus on driving the stories to completion.
+
+
+Developers and QA should be communicating intensely about these tests. We don’t want QA to simply “throw the tests over the wall” to the developers. Rather, they should be negotiating how the tests are structured and collaborating on writing them, even to the point of pairing together on the writing of them.
+
+
+The definition of “done” is this: acceptance tests pass
+
+
+
+The Demo
+The iteration ends with a brief demonstration of the new stories to the stakeholders. This meeting need be no more than an hour or two long, depending on the iteration size. The demo should include showing that all the acceptance tests run—including all previous acceptance tests—and all unit tests. It should also show off the newly added features. It is best if the stakeholders themselves operate the system so that the developers aren’t tempted to hide things that don’t work
+
+
+
+Remember, the only failing iteration is an iteration that fails to produce data.
+
+
+One reason that teams fail to refactor enough is that they don’t write enough unit tests, so they fear that refactoring will break something that used to work
+
+paper source
+tapes
+disk
+Subversion-->more than 1 developer can check the program at the same time and after updating it will merge to orignal version
+
+GIT -->IT shrunk to zero
+
+Release-->technically it is ready to deploy.
+
+
+
+When the user enters a valid username and password, and then clicks “login,” the system will present the “Welcome” page.
+
+This is obviously a specification. It is also obviously a test.
+
+It should also be obvious that this test could be automated. There is no reason that a computer could not verify that the specification has been met.
+
+This is the practice of Acceptance Tests. The practice says that, to the degree practicable, the requirements of the system should be written as automated tests.
+
+
+
+
+*************Team Practice***************************
+
+. A metaphor can provide a vocabulary that allows the team to communicate efficiently. On the other hand, some metaphors are silly to the point of being offensive to the customer.
+
+
+
+Marathon
+That was the moment that I learned that a software project is a marathon, not a sprint, nor a sequence of sprints. In order to win, you must pace yourself. If you leap out of the blocks and run at full speed, you’ll run out of energy long before you cross the finish line.
+
+Overtime
+Working overtime is not a way to show your dedication to your employer. What it shows is that you are a bad planner, that you agree to deadlines to which you shouldn’t agree, that you make promises you shouldn’t make, that you are a manipulable laborer and not a professional.
+
+Sleep
+The most precious ingredient in the life of a programmer is sufficient sleep. I do well on seven hours. I can tolerate a day or two of six hours. Anything less, and my productivity plummets. Make sure you know how many hours of sleep your body needs, and then prioritize those hours. Those hours will more than pay themselves back. My rule of thumb is that the first hour of insufficient sleep costs me two hours of daytime work. The second hour of insufficient sleep costs me another four hours of productive work. And, of course, there’s no productive work at all if I’m three hours behind on my sleep
+
+
+Collective Ownership
+No one owns the code in an Agile project. The code is owned by the team as a whole. Any member of the team can check out and improve any module in the project at any time. The team owns the code collectively.
+When a team practices Collective Ownership, knowledge becomes distributed across the team
+
+Continuous Integration
+In the early days of Agile, the practice of Continuous Integration meant that developers checked in their source code changes and merged them with the main line every “couple of hours.”6 All unit tests and acceptance tests kept passing. No feature branches remained unintegrated. Any changes that should not be active when deployed were dealt with by using toggles.
+	The point is that Continuous Integration only works if you integrate continuously.
+
+
+
+STANDUP MEETING
+	This is why it’s called a “standup” meeting.
+
+	What did I do since the last meeting?
+
+	What will I do until the next meeting?
+
+	What is in my way?
+
+
+LETS SAY IF SOMEONE HELPS YOU THAN YOU SHOULD THANK TO HIM IN A STAND-UP MEETING
+
+
+
+
+
+************Agile is a set of principles, practices, and disciplines that help small teams build small software projects. The practices described in this chapter are those that help those small teams behave like true teams. They help the teams set the language they use to communicate, as well as the expectations for how the team members will behave toward each other and toward the project they are building.***************
+
+
+
+
+*****************Technical Practice***********************
+			
+*************Test-Driven Development*******************
+Lets say we are i am making a movie website and i want to create home page ,so the thing is 1st i need to complete home page including test and coding phase than only i am going to start working on Login Page.Otherwise I won't do any work.
+
+
+
+Every required behavior is entered twice: once as a test, and then again as production code that makes the test pass. 
+
+
+Three Rules, then every line of production code was written in order to make a test pass. Therefore, the test suite is very complete. When it passes, you can make a decision. That decision is to deploy.
+
+
+you don't want to touch the code bcz it is old so you think if i touch that code and after that it won't work than,this is the fear and if every emp thinks like that than how you and other team members is going to improve.
+
+now lets say you want to improve than 1st thing you will start by decreasing the memory that variables are taking than you break A big fn into small fn and then you move small fn in a class and after doing all that your test cases passed and thats
+how you will improve and do the clean code.
+
+Thats why practising TDD is good way bcz it gives us the courage to keep the code clean and orderly.It give us the courage to act like professional.
+
+
+*****************REFACTORING*****************************
+Refactoring is the practice of improving the structure of a code without altering the behavior,as defined by the tests.In other words we make changes to the names ,the classes ,the functions and the expressions without breaking any of the test.We improve the whole universe of code.
+
+Refactoring-->changing the name into a meaningful name
+				breakdown of large fn into smaller fn
+			change the if else condition to switch condition.
+			Arguments change into objects
+			classes with many methods break into lots of smaller classes.
+and while doing this We need to simultanesously pass the unit test side by side
+
+**********************************************************
+The process of refactoring is woven intrinsically into the Three Rules of TDD in what is known as the Red/Green/Refactor cycle
+
+1.First, we create a test that fails.
+
+2.Then we make the test pass.
+
+3.Then we clean up the code.
+
+Return to step 1.
+********************************
+
+Refactoring or following TDD doesn't mean that you are not doing any mistake,its just tell that you create a mess but you are also cleaning the mess on that spot only.
+
+Study the link.
+
+https://learning.oreilly.com/library/view/clean-agile-back/9780135782002/ch05.xhtml#:-:text=Point%201%20is%20self-evident.%20The%20code%20must%20pass%20all%20the%20tests.%20The%20code%20must%20work.,Point%203%20says%20that%20after%20we%20have%20made%20the%20code%20as%20descriptive%20and%20expressive%20as%20possible%2C%20we%20hunt%20for%20and%20remove%20any%20duplication%20within%20that%20code.%20We%20don%E2%80%99t%20want%20the%20code%20to%20say%20the%20same%20thing%20more%20than%20once.%20During%20this%20activity%2C%20the%20refactorings%20are%20usually%20more%20complicated.%20Sometimes%20removing%20duplication%20is%20as%20simple%20as%20moving%20the%20duplicate%20code%20into%20a%20function%20and%20calling%20it%20from%20many%20places.%20Other%20times%20it%20requires%20more%20interesting%20solutions%2C%20such%20as%20the%20Design%20Patterns%3A4%20Template%20Method%2C%20Strategy%2C%20Decorator%2C%20or%20Visitor.
+
+
+
+
+
+**********************Pair Programming**********************
+
+First of all, pairing is optional. No one should be forced to pair. Secondly, pairing is intermittent. 
+
+Finally, never, ever, ever, ask for permission to pair. Or test. Or refactor. Or… You are the expert. You decide.
+
+
+**************Become Agile*******************************
+Agile Values
+Kent Beck named the four values of Agile long ago. They are courage, communication, feedback, and simplicity.
+
+
+ A team that sits together and communicates frequently can work miracles.
+
+. Feedback is what makes the team work so effectively and what drives a project to a beneficial outcome.
+
+
+
+
+The next Agile value is simplicity—in other words,being direct. It has often been said that every problem in software can be solved by adding another layer of indirection. 
+ When you recognize a problem but silently allow it to pass to someone else, you are engaging in indirection.
+
+
+However, it is foolish to train just one special person. Every member of an Agile team needs to understand the values and techniques of Agile. Therefore, if one member of the team is trained, all members of the team should be trained.
+
+Agile is for small- to medium-sized teams, period. It works well for such teams. Agile was never intended for large teams.
+
+
+Agile is the set of disciplines by which we organize small software teams. Why do we need a special technique for this?
+
+
+The bottom line here is that Agile is about software. In particular, it is about small software teams. I am always frustrated when people ask me how to apply Agile to hardware, construction, or some other task. My answer has always been that I don’t know, because Agile is about software.
+
+
+
+Large teams are solved problem.
+why so?
+Because large teams are made up of small teams and small teams
+already following a Agile concept.
+
+
+
+*************Agile Tools*********************************
+
+A good tool should feel comfortable in your hands and not make you queasy with the dread of having to use it. Git is quick, it gives you the ability to commit locally instead of only to a server, it allows you to work from your local repository without a network connection, it handles multiple repositories and multiple branches well, and it deftly supports merges.
+
+ALM-->Agile LifeCycle Management.
+
+solving problem of people is called agile
+solving problem of software is called craftssoftware
+
+
+
+
+
+**********Craftsmanship*************************************
+There is no need for architecture or design. The order is to simply focus on the highest-priority item in the backlog and get it done as fast as possible—one highest-priority item after another. This approach results in a long sequence of iterative tactical work and accumulation of technical debt. Fragile software, the famous monoliths (or distributed monoliths for the teams trying micro services) become the norm. Bugs and operational problems are popular discussion topics during daily standup meetings and retrospectives. Releases to production are not as frequent as the business expected. Manual testing cycles still take days, if not weeks, to complete. And the hope that adopting Agile would prevent all these issues is gone. Managers blame developers for not moving quickly enough. Developers blame managers for not allowing them to do the technical and strategic work needed. Product owners do not consider themselves as part of the team and do not share the responsibility when things go wrong. The us-versus-them culture reigns dominant.
+
+That is what we call the Agile Hangover.
+
+===================================================
+http://manifesto.softwarecraftsmanship.org/
+===================================================
+
+
+
+
+
+The Software Craftsmanship manifesto describes an ideology, a mindset. It promotes professionalism through different perspectives.
+
+
+
+Well-crafted software means code that is well designed and well tested. It is code that we are not scared to change and code that enables business to react fast. It is code that is both flexible and robust.
+
+
+
+Steadily adding value means that no matter what we do, we should always be committed to continuously provide increasing value to our clients and employers.
+
+
+
+A community of professionals means that we are expected to share and learn with each other, raising the bar of our industry. We are responsible for preparing the next generation of developers.
+
+
+
+Productive partnerships means we will have a professional relationship with our clients and employers. We will always behave ethically and respectfully, advising and working with our clients and employers in the best way possible. We will expect a relationship of mutual respect and professionalism even if we need to take the initiative and lead by example.
+
+
+
+************************
+Craftsmanship promotes software development as a profession. There is a difference between having a job and having a profession. A job is a thing we do but it is not part of who we are. A profession, on the other hand, is part of who we are. When asked, “What do you do?”, a person with a job would normally say something like “I work for company X,” or “I work as a software developer.” But a person with a profession would generally say, “I am a software developer.” A profession is something we invest in. It’s something we want to get better at. We want to gain more skills and have a long-lasting and fulfilling career.
+
+
+The Software Craftsmanship mindset is an inspiration for many developers. It gives them a sense of purpose, a sense of pride, and an innate willingness to do things well. Most developers, as people in general, are keen to learn and do things well—they just need support and an environment where they can thrive. Companies embracing Craftsmanship often see internal communities of practice flourish. Developers organize internal sessions where they code together, practice TDD, and improve their software design skills. They become interested in learning new technologies and modernizing the systems they work on. They discuss better ways to improve the codebase and eliminate technical debit. Software Craftsmanship promotes a culture of learning, making companies more innovative and responsive.
+************************
+
+----------------->>>>>>>>> <<<<<<<<<<<---------
+Ask the developers in an “Agile organization” what Agile is, and you’ll likely get a very different answer than if you ask anyone beyond the level of a software development manager. Perhaps that is where this book has been the most enlightening.
